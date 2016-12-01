@@ -12,7 +12,7 @@ public class PokemonPanel extends JPanel
 	private PokemonController baseController;
 	private ImageIcon pokemonIcon;
 	private SpringLayout baseLayout;
-	private JButton updateButtonl;
+	private JButton updateButton;
 	private JComboBox pokedexSelector;
 	private JLabel pokemonLabel;
 	private JLabel healthLabel;
@@ -29,6 +29,21 @@ public class PokemonPanel extends JPanel
 	private JTextArea advancedArea;
 	
 	public PokemonPanel(PokemonController baseController)
+	
+	private void setupPanel()
+	{
+		
+	}
+	
+	private void setupLayout()
+	{
+		
+	}
+	
+	private void setupListeners()
+	{
+		
+	}
 	
 	
 	
