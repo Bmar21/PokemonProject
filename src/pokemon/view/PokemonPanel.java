@@ -46,10 +46,20 @@ public class PokemonPanel extends JPanel
 		advancedArea.setLineWrap(true);
 		
 		pokemonLabel.setVerticalTextPosition(JLabel.BOTTOM);
-		pokemonLabel.setHorizontalTextPositon(JLabel.CENTER);
+		pokemonLabel.setHorizontalTextPosition(JLabel.CENTER);
 		
 		this.add(pokedexSelector);
-		this.add
+		this.add(healthField);
+		this.add(healthLabel);
+		this.add(healthLabel);
+		this.add(combatField);
+		this.add(speedField);
+		this.add(speedLabel);
+		this.add(nameField);
+		this.add(nameLabel);
+		this.add(numberField);
+		
+		
 	}
 	
 	private void setupLayout()
